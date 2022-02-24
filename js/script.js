@@ -279,7 +279,7 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
                 form.reset();
             });
           });
-      }
+      };
 
 
       function showThanksModal(message) {
