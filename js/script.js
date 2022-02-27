@@ -471,8 +471,9 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
           if (!sex || !height || !weight || !age || !ratio) {
               result.textContent = '0';
               return;
+              
           }
-
+          console.log(ratio);
           if (sex === 'female') {
               result.textContent = Math.round((447.6 + (9.2 * weight) + (3.1 * height) - (4.3 * age)) * ratio);
           } else {
