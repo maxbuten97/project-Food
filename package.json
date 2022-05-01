@@ -18,5 +18,8 @@
   "homepage": "https://github.com/maxbuten97/project-Food#readme",
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
   }
 }
