@@ -42,7 +42,7 @@ const tabs = document.querySelectorAll('.tabheader__item'),  //создаем н
 
 //timer
 
-const deadline = '2022-03-18';
+const deadline = '2022-06-30';
 
 function getTimeRemaining(endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date()),
@@ -573,7 +573,7 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
 
 
 
-
+        
 
 
 
